@@ -7,7 +7,7 @@ var firebase = require("firebase-admin");
 var serviceAccount = require("./bookshopDB.json");
 firebase.initializeApp({
   credential: firebase.credential.cert(serviceAccount),
-	databaseURL: "https://bookshop-api-f6920.firebaseio.com"
+	databaseURL: "https://bookshop-api-250dc.firebaseio.com"
 });
 var db = firebase.database();
 var port = process.env.PORT || 3000;
